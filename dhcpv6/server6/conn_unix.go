@@ -8,7 +8,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/insomniacslk/dhcp/interfaces"
+	"github.com/logingood/dhcp/interfaces"
 	"golang.org/x/sys/unix"
 )
 

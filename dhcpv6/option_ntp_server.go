@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/insomniacslk/dhcp/rfc1035label"
+	"github.com/logingood/dhcp/rfc1035label"
 	"github.com/u-root/uio/uio"
 )
 

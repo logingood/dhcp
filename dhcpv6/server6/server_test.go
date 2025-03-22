@@ -6,9 +6,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/insomniacslk/dhcp/dhcpv6"
-	"github.com/insomniacslk/dhcp/dhcpv6/nclient6"
-	"github.com/insomniacslk/dhcp/interfaces"
+	"github.com/logingood/dhcp/dhcpv6"
+	"github.com/logingood/dhcp/dhcpv6/nclient6"
+	"github.com/logingood/dhcp/interfaces"
 	"github.com/stretchr/testify/require"
 )
 

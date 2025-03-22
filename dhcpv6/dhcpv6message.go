@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/insomniacslk/dhcp/iana"
-	"github.com/insomniacslk/dhcp/rfc1035label"
+	"github.com/logingood/dhcp/iana"
+	"github.com/logingood/dhcp/rfc1035label"
 	"github.com/u-root/uio/rand"
 	"github.com/u-root/uio/uio"
 )

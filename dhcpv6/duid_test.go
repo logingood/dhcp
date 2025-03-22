@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/insomniacslk/dhcp/iana"
+	"github.com/logingood/dhcp/iana"
 	"github.com/stretchr/testify/require"
 )
 

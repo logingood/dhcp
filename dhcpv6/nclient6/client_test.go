@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/hugelgupf/socketpair"
-	"github.com/insomniacslk/dhcp/dhcpv6"
-	"github.com/insomniacslk/dhcp/dhcpv6/server6"
+	"github.com/logingood/dhcp/dhcpv6"
+	"github.com/logingood/dhcp/dhcpv6/server6"
 	"github.com/stretchr/testify/require"
 )
 
