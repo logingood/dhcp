@@ -49,7 +49,10 @@ func (op *OptVendorClass) FromBytes(data []byte) error {
 		op.Data = append(op.Data, buf.CopyN(int(len)))
 	}
 	if len(op.Data) == 0 {
-		return fmt.Errorf("%w: vendor class data should not be empty", uio.ErrBufferTooShort)
+		op.Data = [][]byte{
+			[]byte("DEFAULT"),
+			[]byte("hh"),
+		}
 	}
 	return buf.FinError()
 }
